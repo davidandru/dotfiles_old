@@ -120,5 +120,5 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias cl=clear
-
+alias lg="git ls-tree -r master --name-only" # lists out files being tracked in current repo
 
