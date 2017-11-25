@@ -123,3 +123,8 @@ alias cl=clear
 alias lg="git ls-tree -r master --name-only" # lists out files being tracked in current repo
 alias vi="vim"
 
+# Source vte.sh for Tilix
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
+
