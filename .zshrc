@@ -42,6 +42,8 @@ autoload -Uz run-help
 unalias run-help
 alias help=run-help
 
+zstyle ':completion:*' rehash true
+
 #############
 # OH-MY-ZSH #
 #############
