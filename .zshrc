@@ -112,6 +112,7 @@ plugins=(
   archlinux 
   systemd
   history
+  sudo
 )
 
 #
